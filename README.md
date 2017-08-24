@@ -7,12 +7,13 @@ REST HTTP API with Flask for SMS Server Tools 3 (http://smstools3.kekekasvi.com/
 Installation
 ------------
 
-After cloning, create a virtual environment and install the requirements. For Linux and Mac users:
-
 For Debian/Ubuntu:
     
     apt-get install virtualenv
     
+
+After cloning, create a virtual environment and install the requirements. For Linux and Mac users:
+
     $ virtualenv venv
     $ source venv/bin/activate
     (venv) $ pip install -r requirements.txt
