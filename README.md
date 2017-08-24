@@ -9,6 +9,9 @@ Installation
 
 After cloning, create a virtual environment and install the requirements. For Linux and Mac users:
 
+For Debian/Ubuntu:
+    apt-get install virtualenv
+    
     $ virtualenv venv
     $ source venv/bin/activate
     (venv) $ pip install -r requirements.txt
@@ -24,6 +27,7 @@ Running
 
 To run the server use the following command:
 
+    $ source venv/bin/activate
     (venv) $ python manage.py runserver --host 127.0.0.1 -r
      * Running on http://127.0.0.1:5000/
      * Restarting with reloader
